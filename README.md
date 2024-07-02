@@ -171,6 +171,9 @@ Check the password file to see the generated passwords:
 sudo cat /var/secure/user_passwords.csv
 ```
 
+![image](https://github.com/OlavicDev/User-and-Group-Management-with-Bash/assets/124717753/42ec582a-efc7-4490-ab54-791da33a36c2)
+
+
 ## Conclusion
 This script simplifies the user and group management process, making it more efficient and secure. Automating these tasks reduces the risk of human error and ensures that all users are set up consistently. For more information about similar projects and learning opportunities, check out the HNG Internship and HNG Hire programs.
 
