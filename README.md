@@ -119,7 +119,7 @@ mayowa; dev,www-data
 Execute the script with root privileges:
 
 ```
-sudo ./create_user.sh <name-of-text-file>
+sudo ./create_users.sh <name-of-text-file>
 ```
 
 ## Running the code in general and comfirming it 
@@ -127,9 +127,9 @@ sudo ./create_user.sh <name-of-text-file>
 ### Create the Script:
 Open a terminal.
 
-Create a new file named `create_user.sh`:
+Create a new file named `create_users.sh`:
 ```
-sudo vim create_user.sh
+sudo vim create_users.sh
 ```
 Copy and paste the script content above into the create_users.sh file.
 
@@ -139,7 +139,7 @@ Save the file and exit the editor.
 Make the script executable by running the following command:
 
 ```
-sudo chmod +x create_user.sh
+sudo chmod +x create_users.sh
 ```
 
 ### Create the Input File:
@@ -158,7 +158,7 @@ mayowa; dev,www-data
 Execute the script by providing the name of the input file as an argument. Ensure you run the script with root privileges:
 
 ```
-sudo ./create_user.sh users.txt
+sudo ./create_users.sh users.txt
 ```
 
 ### Verify the Output:
